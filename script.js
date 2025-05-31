@@ -21,6 +21,7 @@ const resetGame = () =>{
     turn0 = true;
     enableBoxes();
     msgContainer.classList.add("hide");
+    msgContainer.scrollIntoView({ behavior: "smooth" });
 
 
 } 
