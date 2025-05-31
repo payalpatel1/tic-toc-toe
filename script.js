@@ -76,6 +76,7 @@ const checkWinner = () => {
                 console.log("winner", pos1Val);
 
                 showWinner(pos1Val);
+                msgContainer.scrollIntoView({ behavior: "smooth" });
             }
         }
     }
